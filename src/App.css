@@ -1,0 +1,135 @@
+
+.contai{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header h1{
+    color: blue;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.header span{
+    color: black;
+}
+.header button{
+    margin-right: 20px;
+    width: 90px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: blue;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.header select{
+    margin-right: 90px;
+    width: 80px;
+    height: 40px;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.paragraph p{
+    margin-top: 140px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+
+}
+.paragraph h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(3, 3, 37);
+    font-size: 29px;
+}
+.paragraph h4{
+
+    width: 380px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(73, 66, 66);
+    font-size: 15px;
+}
+.paragraphh button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.main{
+    gap: 340px;
+    display: flex;
+}
+.img img{
+    margin-top: 80px;
+}
+.card{
+    padding-left: 20px;
+    width: 300px;
+    height: 180px;
+    border: 2px solid blue;
+    box-shadow: -2px 2px 5px 2px blue;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    gap: 30px;
+}
+.carding{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 95px;
+}
+.spone{
+    color: blue;
+}
+
+.paragraphh input{
+    width: 460px;
+}
+
+
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+
+  .dark-mode h1{
+    color: white;
+  }
+  .dark-mode span{
+    color: white;
+  }
+
+  .dark-mode h4{
+    color: white;
+  }
+  .paragraphh h1{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+  .paragraphh input{
+    margin-left: 350px;
+  }
+  .paragraphh button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-top: 7px;
+  }
