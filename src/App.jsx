@@ -3,14 +3,13 @@ import img1 from "../public/img/img.jpg";
 import '../src/App.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { add } from './store/userSlice';
-import { toggleDark } from './store/darkSlice';  // darkSlice dan import qilamiz
-
+import { toggleDark } from './store/darkSlice';  
 const App = () => {
   const nameref = useRef();
   const ageref = useRef();
   const surref = useRef();
   const users = useSelector(state => state.user);
-  const isDark = useSelector(state => state.dark.isDark);  // dark mode holatini olish
+  const isDark = useSelector(state => state.dark.isDark);  
   const dispatch = useDispatch();
 
   const handleAddUser = () => {
@@ -27,17 +26,17 @@ const App = () => {
   };
 
   const handleToggleDarkMode = () => {
-    dispatch(toggleDark());  // dark mode o'zgarishini chaqiramiz
+    dispatch(toggleDark());  
   };
 
   return (
 
    <div     className={`conta ${isDark ? 'dark-mode' : ''}`}>
-     <div> {/* Dark mode shart */}
+     <div>
       <div className='header contai'>
         <h1>brix <span>templates</span></h1>
         <div className="bbc">
-          <button onClick={handleToggleDarkMode}>Dark Mode</button> {/* Dark mode tugmasi */}
+          <button onClick={handleToggleDarkMode}>Dark Mode</button> 
           <select>
             <option value="eng">eng</option>
             <option value="uzb">uzb</option>
